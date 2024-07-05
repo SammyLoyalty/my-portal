@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+nav{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: rgb(151, 24, 24);
+    width: 100%;
+    top: 0%;
+    right: 0;
+    padding: 50px 5px 35px 5px;
+    align-content: center;
+    
+}
+.logo{
+  margin-left: 30px;
+  font-family:monospace;
+  font-weight: bolder;
+  font-size:xx-large;
+
+}
+div>.mypic{
+  height: 350px;
+  width: 300px;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 50%;
+}
+.sam{
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+    animation-name: sam;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+span.navbar a{
+    color: whitesmoke;
+    padding: 20px;
+    width: 50%;
+    top: 0;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a{ 
+    text-decoration: none;
+}
+p h1, h2, a{
+    color: white;
+    
+}
+section{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-top: 2px rgb(117, 0, 0) solid;
+}
+section.welcome-section{
+    margin-top: 120px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mywork{
+    background-color: rgb(88, 4, 4) ;
+    padding: 10px;
+    border-left: 2px rgba(255, 250, 250, 0.438)  solid ;
+    border-top: 2px rgba(255, 250, 250, 0.438) solid ;
+    border-radius: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 180px;
+    margin-left: 500px;
+    margin-right: 500px;
+    align-content: center;
+    top: 320px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+} 
+.container{
+    background-color: rgb(95, 1, 1);
+    height: 180px;
+    border: black 1px solid;
+    display: flex;
+    height: 80vh;
+    align-content: center;
+}
+ .project-container{
+    flex: 1;
+  align-items: center;
+  border: 1px solid black;
+ }
+ .project-title{
+ background-color: black;
+ align-content: center;
+margin-top: 150px;
+ width: 344px;
+ padding: 44px;
+ padding-right: 59px;
+ float: left;
+ margin-left: auto;
+ background-color: rgb(0, 0, 0);
+ text-align: center;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size: larger;
+
+ }
+
+   
+  .footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 200px;
+    background-color: rgb(97, 0, 0);
+    z-index: -1;
+  }
+  .fa{
+   font-size: 90px;
+   color: white;
+  }
+  .image-project{
+    
+    width: 450px;
+    height: 250px;
+    padding: 10px;
+  }
+  section>.archivements-section, h1{
+    text-align: center;
+  }
+  section>.archivements-section, .archivement-img{
+    top:100px;
+    margin-left: 400px;
+    bottom: 500px;
+   padding: auto;
+  }
+.contacts{
+  text-align: center;
+   margin-top: 150px;
+}
+
+  @keyframes sam {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+ }
+  @media screen and (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Styles for screens wider than 900px */
+  @media screen and (min-width: 900px) {
+    body {
+      font-size: 20px;
+    }
+  }
